@@ -13,7 +13,7 @@ A Flask-based web application for managing contacts. This application intentiona
 ### Clone the Repository
 ```bash
 git clone <repository-url>
-cd lab6
+cd contact-list-manager
 ```
 
 ### Setting Up Virtual Environment
@@ -89,12 +89,12 @@ The application will be available at `http://localhost:5001`
 
 ## Project Structure
 ```
-lab6/
+contact-list-manager/
 ├── app.py               # Main Flask application
-├── models.py           # Database models
-├── forms.py            # Form definitions
-├── requirements.txt    # Project dependencies
-├── templates/          # HTML templates
+├── models.py            # Database models
+├── forms.py             # Form definitions
+├── requirements.txt     # Project dependencies
+├── templates/           # HTML templates
 │   ├── base.html
 │   ├── index.html
 │   ├── contacts.html
@@ -141,3 +141,7 @@ deactivate
 ## Note for Testing
 
 This application contains intentionally introduced bugs for educational purposes in software testing. These bugs are distributed across different components of the application.
+
+---
+Notes:
+- The repository historically also contained a small "github-actions-lab" README; this file now documents the Contact List Manager project in this workspace.
